@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar - Emprega Matão</title>
+    <link rel="stylesheet" href="entrar.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="imgs/logo.svg" alt="Logo do site">
+            </a>
+        </div>
+        <nav>
+            <ul class="nav_links preto1">
+                <li><a href="vagas.html" class="preto1">VAGAS</a></li>
+                <li><a href="" class="preto1">CURSOS</a></li>
+                <li><a href="" class="preto1">SOBRE NÓS</a></li>
+                <!-- <li><a href="" class="preto1">SUPORTE</a></li> -->
+            </ul>
+        </nav>
+        <a href="entrar.html" style="display: none;">
+            <button class="btn_entrar">
+                <img src="imgs/box-arrow-in-right.svg" alt="Icone botão entrar">
+                <p>ENTRAR</p>
+            </button>
+        </a>
+        <div class="menu">
+            <img src="imgs/menu.svg" alt="Icone hamburger menu">
+        </div>
+    </header>
+
+    <main>
+        <div class="up"></div>
+        <div class="down"></div>
+        <div class="meio">
+            <div class="inside">
+                <h1 class="azul h1">ENTRAR NO SEU PERFIL</h1>
+                <div class="outro">
+                    <p class="s preto1">Ainda não possui uma conta?</p>
+                    <a href="cadastrar.html" class="s verde">Criar uma conta</a>
+                </div>
+                <form action="index.html" class="form">
+                    <label for="id_pessoa" class="one">CPF / CNPJ:</label>
+                    <input type="text" id="id_pessoa" name="id_pessoa" class="two">
+                    <label for="senha" class="one senha">Senha:</label>
+                    <input type="text" class="two" id="senha" name="senha">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check" class="check">Lembre-se de mim</label>
+                    <button type="submit" class="btn_entrar two">
+                        <p>ENTRAR</p>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="branco1">
+        <div class="footer_content">
+
+            <div class="candidatos">
+                <h2>CANDIDATOS</h2>
+                <ul class="x">
+                    <li>Perfil candidato</li>
+                    <a href="vagas.html" class="branco1"><li>Vagas</li></a>
+                </ul>
+            </div>
+            <div class="empresas">
+                <h2>EMPRESAS</h2>
+                <ul class="x">
+                    <li>Perfil empresa</li>
+                    <li>Anuncios</li>
+                </ul>
+            </div>
+            <div class="institucional">
+                <h2>INSTITUCIONAL</h2>
+                <ul class="x">
+                    <li>Sobre nós</li>
+                    <li>Suporte</li>
+                </ul>
+            </div>
+        </div>
+        <div class="redes">
+            <a href=""><img src="imgs/whats.svg" alt="Icone WhatsApp"></a>
+            <a href=""><img src="imgs/face.svg" alt="Icone Facebook"></a>
+            <a href=""><img src="imgs/linkedIn.svg" alt="Icone LinkedIn"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
